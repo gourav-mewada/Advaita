@@ -46,6 +46,23 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+  #load {
+    position: fixed;
+    z-index: 999999999999999999999;
+    transition: all 0.3s ease;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000099;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#load img{
+  width: 250px;
+  object-fit: cover;
+}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
